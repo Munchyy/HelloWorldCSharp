@@ -1,12 +1,9 @@
-﻿
-namespace HelloWorldCSharp
+﻿class HelloWorld
 {
-    class HelloWorld
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            System.Console.WriteLine("Hello World");
-            System.Console.ReadKey();
-        }
+        System.Console.WriteLine("Hello World");
+        System.Console.ReadKey();
     }
 }
+
